@@ -464,10 +464,10 @@ pub fn quantify(
             tid_to_gid[*transcript_id as usize] = gene_id;
         }
     }
-    assert_eq!(
-        found, hdr.ref_count as usize,
-        "The tg-map must contain a gene mapping for all transcripts in the header"
-    );
+//     assert_eq!(
+//         found, hdr.ref_count as usize,
+//         "The tg-map must contain a gene mapping for all transcripts in the header"
+//     );
 
     info!(
         log,
